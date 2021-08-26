@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Description: print programming is like building a multilinual puzzle
  * main- function is the executed functio
+ * Description: print programming is like building a multilinual puzzle
+ * Return: 0
  */
 
 int main(void)
