@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 /**
  * main - main function
  * Description: print numbers from 0 to 9
@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i<= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(i);
+		printf(i);
 	}
 	putchar('\n');
 
