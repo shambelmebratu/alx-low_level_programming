@@ -1,5 +1,5 @@
-#include <stdio.h>  
-#include <unistd.h>  
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main - main function
  * Description: print positive and negative value by using if statement
@@ -8,6 +8,7 @@
 int main(void)
 {
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
