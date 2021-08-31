@@ -3,7 +3,7 @@
  * _islower - prototype
  * Description:checks if a character is lowercase or not
  * Return: 1 if true. 0 if false.
- * c: parameter of int value
+ * @c: parameter of int value
  */
 int _islower(int c)
 {
