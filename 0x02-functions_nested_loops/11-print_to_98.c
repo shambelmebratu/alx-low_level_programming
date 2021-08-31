@@ -3,7 +3,7 @@
 /**
  * print_to_98 - prototype
  * Description: print n to 98
- * @n - integere parameter
+ * @n: integere parameter
  */
 void print_to_98(int n)
 {
