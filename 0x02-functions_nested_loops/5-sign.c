@@ -5,7 +5,7 @@
  * Return: 1 if true. 0 if false.
  * @n: parameter of int value
  */
-int prin_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
