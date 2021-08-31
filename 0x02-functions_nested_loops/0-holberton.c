@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - function is the executed functio
  * Description: print holberton
@@ -6,14 +7,13 @@
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
-	return (0);
+	char str[] = "_putchar\n";
+	int i = 0;
+	while (str[i] != '\0') 
+	{
+		char c = str[i];
+	       	_putchar(c);
+		i++;
+	}
+return (0);
 }
