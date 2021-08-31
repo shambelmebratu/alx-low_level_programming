@@ -2,7 +2,8 @@
 
 /**
  * print_alphabet - print lowercase alphabet
- * Description:print lowercase alphabet by using putchar
+ * Description:print lowercase alphabet 
+ * by using putchar
  * Return: void 
  */
 void print_alphabet(void)
