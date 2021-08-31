@@ -1,19 +1,18 @@
 #include "main.h"
 /**
  * times_table - prototype
- * Description:checks if a character is lowercase or not
- * Return: 1 if true. 0 if false.
- * @n: parameter of int value
+ * Description: times table
  */
 void times_table(void)
 {
-	int i, j;
+	int i, j, k;
 
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			_putchar(i * j);
+			k = i * j;
+			_putchar(k);
 		}
 		_putchar(',');
 		_putchar('\n');
