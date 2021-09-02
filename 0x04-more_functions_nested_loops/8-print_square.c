@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_square - print square #
- * @n: number of #
+ * print_square - print square
+ * @n: number of # going to print
  * Return: void
  */
 
 void print_square(int n)
 {
-	int i = 0, j = 0;
+	int i = 0, j;
 
 	while (i < n && n > 0)
 	{
+		j = 0;
 		while (j < n)
 		{
 			_putchar('#');
