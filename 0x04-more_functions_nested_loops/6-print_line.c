@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - prints a line
- * @n: parameter n 
+ * print_line - print line
+ * @n: argument n
  *
  * Return: 0
  */
