@@ -5,7 +5,8 @@
  * @s: char s of string
  * Return: c value
  */
-void _strlen(char *s)
+
+int _strlen(char *s)
 {
 	int c = 0;
 
