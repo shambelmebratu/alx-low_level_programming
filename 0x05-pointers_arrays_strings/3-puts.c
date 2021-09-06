@@ -3,8 +3,10 @@
 /**
  * _puts - print string function
  * @str: argument of pointer str value
- * Return: empty
+
+ * Return: 0
  */
+
 void _puts(char *str)
 {
 	int i = 0;
