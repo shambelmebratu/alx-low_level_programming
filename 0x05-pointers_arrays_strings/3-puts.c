@@ -3,7 +3,6 @@
 /**
  * _puts - print string function
  * @str: argument of pointer str value
-
  * Return: 0
  */
 
