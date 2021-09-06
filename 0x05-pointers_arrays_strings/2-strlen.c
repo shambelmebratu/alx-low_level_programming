@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * _strlen - reset function
+ * @s: char s of string
+ * Return: c value
+ */
+void _strlen(char *s)
+{
+	int c = 0;
+
+	while (*s != '\0')
+	{
+		c++;
+		*s++;
+	}
+return (c);	
+}
