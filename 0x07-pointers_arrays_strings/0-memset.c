@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memset - fill memory with constant function
  * @s: char s 
