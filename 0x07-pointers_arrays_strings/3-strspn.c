@@ -4,6 +4,7 @@
  * _strspn - gets the length of a prefix substring
  * @s: string
  * @accept: accept attribute
+ *
  * Return: the number of byte
  */
 
@@ -23,7 +24,9 @@ unsigned int _strspn(char *s, char *accept)
 			}
 
 			else if(accept[i + 1] == '\0')
+			{
 				return (b);
+			}
 		}
 
 		s++;
