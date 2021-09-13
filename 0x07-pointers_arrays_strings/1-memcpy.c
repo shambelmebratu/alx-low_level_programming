@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * *_memcpy - copies memory area.
+ * @dest: destination memory
+ * @src: source 
+ * @n: length
+ */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
