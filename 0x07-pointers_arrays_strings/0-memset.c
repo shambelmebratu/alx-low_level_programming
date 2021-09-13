@@ -2,7 +2,7 @@
 
 /**
  * _memset - fill memory with constant function
- * @s: char s 
+ * @s: char s
  * @b: char b
  * @n: number of byte
  * Return: Returns a pointer to the memory area s
