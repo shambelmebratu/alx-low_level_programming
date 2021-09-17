@@ -3,5 +3,5 @@
 
 int main(int argc, char* argv[])
 {
-	printf(argv[argc]);
+	printf("%s\n", argv[argc]);
 }
