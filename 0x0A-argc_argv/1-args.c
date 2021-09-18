@@ -10,7 +10,15 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d", argc);
+	int i;
+
+	if (i > 1)
+	{
+		for (i = 0; i < argc; i++)
+		{
+			printf("%d", argv[i]);
+		}
+	}
 
 	return (0);
 }
