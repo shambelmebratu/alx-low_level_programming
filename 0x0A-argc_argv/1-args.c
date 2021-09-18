@@ -1,15 +1,24 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - main function to print name of the program
- * @argc: number of command line
+ * main - main function to print number of command
+ * @argc: Number of command line
+ * @argv: array of char
  * Return: 0
  */
 
-int main(int argc)
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
-	
+	int i;
+
+	if (argc == 1)
+		printf("%d\n", argc - 1);
+	else
+	{
+		for (i = 0; *argv; i++, argv++)
+			printf("%d\n", i - 1);
+	}
+
 	return (0);
 }
